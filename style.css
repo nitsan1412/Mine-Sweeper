@@ -1,0 +1,54 @@
+html,
+body {
+  background-color: rgb(134, 240, 134);
+}
+
+.grid {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(58, 74, 223);
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.grid div {
+  height: 40px;
+  width: 40px;
+  border: double;
+  box-sizing: border-box;
+}
+
+.main-headline {
+  color: darkgreen;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.dificalty-div {
+  margin-left: 5%;
+}
+
+.dificalty-headline {
+  color: darkgreen;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.dificalty-buttons {
+  color: darkgreen;
+  background-color: lawngreen;
+  border: rgb(42, 136, 50) 3px solid;
+  border-radius: 25px;
+}
+
+.bomb {
+  /* background-color: orange; */
+}
+
+.checked {
+  background-color: rgb(30, 214, 247);
+}
